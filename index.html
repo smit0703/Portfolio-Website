@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Your Name</h1>
+            <div class="menu-toggle">
+                <input type="checkbox" id="menu-toggle-checkbox">
+                <label for="menu-toggle-checkbox" class="menu-icon">&#9776;</label>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1 class="hero-text">Hello, I'm Your Name</h1>
+            <p class="hero-subtext">UI/UX Designer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate UI/UX designer with a keen eye for detail and a knack for creating visually stunning designs that enhance user experience. I love transforming ideas into beautiful and functional interfaces.</p>
+            <div class="photo">
+                <img src="IMG_20240204_231755-removebg-preview.png" alt="Your Name">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>UI/UX Design</li>
+                    <!-- Add more technical skills here -->
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Other Skills</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Problem Solving</li>
+                    <li>Creativity</li>
+                    <!-- Add more other skills here -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <!-- Add your resume file here -->
+            <p><a href="80b7bf424b3749094423.pdf" target="_blank">Download Resume</a></p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Accident detection and alert system</h3>
+                <p>Description of the project...</p>
+            </div>
+            <div class="project">
+                <h3>Drowsiness detection system</h3>
+                <p>Description of the project...</p>
+            </div>
+            <div class="project">
+                <h3>UI-UX designs for cafe and other UI-UX design</h3>
+                <p>Description of the project...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" id="submit-btn">Send</button>
+            </form>
+            <p id="success-message" class="hidden">Your message has been sent successfully!</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Phone: Your Phone Number</p>
+            <p>Email: Your Email</p>
+            <p>LinkedIn: <a href="Your LinkedIn Link" target="_blank">LinkedIn</a></p>
+            <p>GitHub: <a href="Your GitHub Link" target="_blank">GitHub</a></p>
+            <p>Figma: <a href="Your Figma Link" target="_blank">Figma</a></p>
+            <p>&copy; 2024 Your Name</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
